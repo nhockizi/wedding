@@ -1,0 +1,17 @@
+.marry_picture {
+	background: #F7F6F5;
+}
+..pannel {
+	background-color: #fff;
+	overflow: hidden;
+}
+.pannel_heading {
+	border-bottom: 2px solid #E9E9E9;
+	background-color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-align: left;
+}
+.pannel_collapse {
+	display: none;
+}

@@ -1,0 +1,18 @@
+.clear {
+	clear: both;
+}
+header {
+	background: #fff;
+}
+#ddmenu ul {
+	background: #fff !important;
+}
+#ddmenu .top-heading {
+	color: #000 !important;
+}
+.ddmenu_title h3 a {
+	color: #5FA043 !important;
+}
+.ddmenu_title  h3 a:hover {
+	text-decoration: none !important;
+}
