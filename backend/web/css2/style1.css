@@ -1,0 +1,195 @@
+a{
+	cursor: pointer ;
+}
+.tab-content{
+	box-shadow: none !important;
+}
+.button-add-more{
+	float: right;
+	position: relative;
+	top:22px;
+}
+.add-more-panel{
+	top:0px;
+}
+.button-add-more-modal
+{
+float: right ; margin-right: 10px;
+}
+.div-tr{
+	border-top: 1px solid #ebebeb;
+}
+.header-col{
+  position:relative;
+  vertical-align: middle;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  float: left;
+}
+.div-header-table {
+  background-color: #f8f8f8;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.div-header-table .add-more-panel{
+	top:10px;
+}
+.nav-tabs{
+	margin-top:0px;
+	font-weight: bold;
+}
+.tab-content{
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.div-table>.row>.form-div{
+	padding: 15px;
+	border-left: 1px solid #ebebeb;
+}
+.div-table>.row>.form-div:first-child{
+	border-left: none;
+}
+
+/*thoan add */
+.div-for-table{
+
+padding: 0px 15px;
+}
+.div-for-row{
+	border-bottom: 1px solid #ebebeb;
+}
+.div-for-row>.row>.form-div{
+	border-left: 1px solid #ebebeb;
+}
+.div-for-header{
+  background-color: #f8f8f8;
+  vertical-align: middle;
+  font-weight: bold;
+  border-top: 1px solid #ebebeb;
+}
+.div-for-table .form-div{
+	padding: 10px;
+	border-left: 1px solid #ebebeb;
+}
+.div-for-table .form-div:last-child{
+	border-right: 1px solid #ebebeb;
+}
+.row-sum{
+	margin-top: 15px;
+	position: relative;
+}
+.header-format{
+	font-weight: bold;
+}
+
+.hr-step{
+    background-color: #00a651;
+    border-color: #00a651;
+    margin-top: -5px;
+}
+.hr-yellow{
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    margin-top: -5px;
+}
+.hr-gray{
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    margin-top: -5px;
+}
+/* Lệnh sản xuất */
+.step-by-step .tab-content{
+  padding: 0px!important;
+  margin-top: 20px;
+}
+
+.step-by-step .nav-pills > li > a {
+    border-radius: 0;
+    margin: 0!important;
+    cursor: default!important;
+    background-color: #fff!important;
+    color: #999!important;
+}
+.step-by-step .nav-pills > li.active > a, .step-by-step
+.nav-pills > li.active > a:hover, .step-by-step
+.nav-pills > li.active > a:focus {
+	background-color: #f3f3f3!important;
+    color: #666!important;
+    border-top: 1px solid #ebebeb!important;
+    border-bottom: 1px solid #ebebeb!important;
+}
+.step-by-step .disabled{
+    display: none;
+}
+.step-by-step .nav-pills > li a {
+    border: 0 !important;
+    text-transform: uppercase;
+    text-align: center;
+}
+.nav-pills > li + li {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.datepicker{
+  z-index: 999999999999 !important;
+}
+
+/*BOM*/
+.bom .panel-default  {
+    color: inherit;
+    background-color: transparent;
+    border: 0!important;
+}
+.bom  .panel-heading {
+    border-bottom: 0px solid transparent!important;
+    border:0px !important;
+    padding: 0px 15px;
+}
+.bom .div-for-header .form-div{
+margin-right:-5px;
+}
+.bom .div-for-header .form-div.style2{
+margin-left:15px;
+
+}
+.bom .panel-body {
+    position: relative;
+    padding: 0px 15px ; 
+    margin-top: -20px;
+    border: 1px solid #ebebeb;
+    border-bottom: none;
+}
+
+.bom .row .form-div{
+  padding: 10px 10px 10px 30px;
+  border-left: 1px solid #ebebeb;
+
+}
+.bom>.row>.form-div:last-child{
+  border-right: 1px solid #ebebeb;
+}
+.div-for-row .add-more-panelscroll{
+  right: 25px;
+  top:0px;
+}
+.div-for-header .add-more-panelscroll{
+  right: 15px;
+  top:0px;
+}
+.modal-footer.bom{
+border-top: none;
+margin-right: -10px; margin-top: 10px;
+}
+.select2{
+  visibility: visible;
+}
+select{
+  width:100%;
+}
+.select2-container--open .select2-dropdown{
+  left: 0;
+  top: 0;
+}
+.select2-container .select2-selection--single{
+  height: 31px;
+}
